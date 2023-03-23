@@ -98,6 +98,15 @@ a {
     color: var(--color-white);
 }
 
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--color-blue);
+    line-height: 1.2;
+    padding-left: 40px;
+}
+
 .contacts{
     margin-left: 150px;
     margin-right: 100px;
@@ -199,6 +208,10 @@ a {
     border-radius: 4px;
 }
 
+.dev-list{
+    padding-left: 200px;
+}
+
 .title-article {
     font-size: 14px;
     line-height: 1.15;
@@ -226,7 +239,7 @@ a {
 
 .section-three {
     background-color: var(--section-three);
-    /*margin-bottom: 0px;*/
+    
 }
 
 .title-developers {
@@ -266,21 +279,31 @@ a {
     letter-spacing: 0.03em;
 }
 
-.footer {
+.last-sec{
     background-color: var(--hero-footer);
-    /*width: 1600px;*/
     height: 252px;
-    /*left: 0px;
-    top: 2097px;*/
+    
+}
+
+.footer {
+    
+    padding: 0 160px;
+    padding-top: 60px;
 }
 
 .address {
     font-style: normal;
+    margin-top: 20px;
 }
+
 
 .googlemap {
     color: var(--color-white);
     font-weight: 400;
+}
+
+.link-foot{
+    padding-bottom: 9px;
 }
 
 .link {
